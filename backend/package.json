@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "run": "echo \"Error: no run script specified\" && exit 1",
-    "compile":  "echo \"Error: no compiled script specified\" && exit 1",
+    "compile": "echo \"Error: no compiled script specified\" && exit 1",
     "debug": "echo \"Error: no debug script specified\" && exit 1"
   },
   "repository": {
@@ -29,5 +29,8 @@
   "homepage": "https://github.com/rosscarnegie/openai-assistant-template#readme",
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
   }
 }
